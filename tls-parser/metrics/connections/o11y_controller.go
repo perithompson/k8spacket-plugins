@@ -3,13 +3,14 @@ package connections
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/k8spacket/k8s-api"
-	"github.com/k8spacket/plugins/tls-parser/metrics/model"
 	"io"
 	"net/http"
 	"os"
 	"reflect"
 	"strings"
+
+	"github.com/k8spacket/k8s-api"
+	metrics "github.com/k8spacket/plugins/tls-parser/metrics/model"
 )
 
 func TLSParserConnectionsHandler(w http.ResponseWriter, req *http.Request) {

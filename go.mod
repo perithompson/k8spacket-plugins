@@ -1,6 +1,6 @@
 module github.com/k8spacket/plugins
 
-go 1.20
+go 1.19
 
 require (
 	github.com/HouzuoGuo/tiedot v0.0.0-20210905174726-ae1e16866d06
